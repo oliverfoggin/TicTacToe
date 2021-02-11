@@ -4,10 +4,43 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Common.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Engine.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>TicTacToe.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5A9477B225D32F02002CB8BA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A9477C325D32F03002CB8BA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A94780125D32F65002CB8BA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A94780925D32F66002CB8BA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

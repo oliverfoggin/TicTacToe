@@ -1,17 +1,18 @@
-//
-//  TicTacToeApp.swift
-//  TicTacToe
-//
-//  Created by Foggin, Oliver (Developer) on 09/02/2021.
-//
-
 import SwiftUI
+import ComposableArchitecture
+import Engine
 
 @main
 struct TicTacToeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(
+                store: Store(
+                    initialState: TicTacToeState(),
+                    reducer: gameReducer,
+                    environment: .live()
+                )
+            )
         }
     }
 }
